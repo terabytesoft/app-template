@@ -1,5 +1,5 @@
-Yii 3.0 Project Skeleton Application Change Log
-===============================================
+Yii 3.0 Project Skeleton Application Basic Change Log
+=====================================================
 
 0.0.1 under development
 -----------------------

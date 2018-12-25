@@ -1,5 +1,5 @@
 {
-    "name": "terabytesoft/app-template",
+    "name": "terabytesoft/app-template-basic",
     "type": "project",
     "description": "Yii 3.0 Project Skeleton Application",
     "keywords": [
@@ -7,11 +7,11 @@
         "application", 
         "template"
     ],
-    "homepage": "https://github.com/terabytesoft/app-template",
+    "homepage": "https://github.com/terabytesoft/app-template-basic",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/terabytesoft/app-template/issues",
-        "source": "https://github.com//terabytesoft/app-template",
+        "issues": "https://github.com/terabytesoft/app-template-basic/issues",
+        "source": "https://github.com//terabytesoft/app-template-basic",
         "forum":  "https://discuss.cjtterabyte.com"
     },
     "authors": [

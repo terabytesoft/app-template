@@ -1,17 +1,17 @@
 <p align="center">
-    <a href="https://github.com/terabytesoft/app-template" target="_blank">
+    <a href="https://github.com/terabytesoft/app-template-basic" target="_blank">
         <img src="https://farm1.staticflickr.com/887/27875183957_69a3645a56_q.jpg" height="100px;">
     </a>
-    <h1 align="center">Yii 3.0 Project Skeleton Application</h1>
+    <h1 align="center">Yii 3.0 Web Project Skeleton Application Basic</h1>
     <br>
 </p>
 
 [![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](https://www.yiiframework.com/)
-[![Build Status](https://scrutinizer-ci.com/g/terabytesoft/app-template/badges/build.png?b=master)](https://scrutinizer-ci.com/g/cjtterabytesoft/app/build-status/master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/terabytesoft/app-template/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/cjtterabytesoft/app/?branch=master)
-[![Code Intelligence Status](https://scrutinizer-ci.com/g/terabytesoft/app-template/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
-[![Maintainability](https://api.codeclimate.com/v1/badges/fe720f0219c23dc3e237/maintainability)](https://codeclimate.com/github/cjtterabytesoft/app/maintainability)
-[![Total Downloads](https://poser.pugx.org/terabytesoft/app-template/downloads)](https://packagist.org/packages/terabytesoft/app-template)
+[![Build Status](https://scrutinizer-ci.com/g/terabytesoft/app-template-basic/badges/build.png?b=master)](https://scrutinizer-ci.com/g/cjtterabytesoft/app/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/terabytesoft/app-template-basic/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/cjtterabytesoft/app/?branch=master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/terabytesoft/app-template-basic/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+[![Maintainability](https://api.codeclimate.com/v1/badges/fe720f0219c23dc3e237/maintainability)](https://codeclimate.com/github/terabytesoft/app-template-basic/maintainability)
+[![Total Downloads](https://poser.pugx.org/terabytesoft/app-template-basic/downloads)](https://packagist.org/packages/terabytesoft/app-template-basic)
 
 
 DIRECTORY STRUCTURE
@@ -88,8 +88,7 @@ composer global require friendsofphp/php-cs-fixer
 
 **LICENSE:**
 
-[![License](https://poser.pugx.org/terabytesoft/app-template/license)](https://packagist.org/packages/terabytesoft/app-template)
-
+[![License](https://poser.pugx.org/terabytesoft/app-template-basic/license)](https://packagist.org/packages/terabytesoft/app-template-basic)
 
 **NOTES:**
 
