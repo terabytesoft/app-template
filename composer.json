@@ -1,0 +1,56 @@
+{
+    "name": "terabytesoft/app-template",
+    "type": "project",
+    "description": "Yii 3.0 Project Skeleton Application",
+    "keywords": [
+        "yii3", 
+        "application", 
+        "template"
+    ],
+    "homepage": "https://github.com/terabytesoft/app-template",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/terabytesoft/app-template/issues",
+        "source": "https://github.com//terabytesoft/app-template",
+        "forum":  "https://discuss.cjtterabyte.com"
+    },
+    "authors": [
+        {
+            "name": "Wilmer Arambula",
+            "email": "terabytesoftw@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0",
+        "yiisoft/cache": "^3.0@dev",
+        "yiisoft/di": "^3.0@dev",
+        "yiisoft/log": "^3.0@dev",
+        "yiisoft/yii-console": "^3.0@dev",
+        "yiisoft/view": "^3.0@dev"
+    },
+    "require-dev": {
+        "hiqdev/composer-config-plugin": "^1.0@dev"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "config": {
+        "fxp-asset": {
+            "enabled": false
+        },
+        "process-timeout": 1800
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.1-dev"
+        },
+        "config-plugin": {
+            "common": "config/common.php",
+            "params": "config/params.php"
+        }
+    }
+}
