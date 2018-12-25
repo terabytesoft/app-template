@@ -11,7 +11,7 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/terabytesoft/app-template/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/cjtterabytesoft/app/?branch=master)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/terabytesoft/app-template/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 [![Maintainability](https://api.codeclimate.com/v1/badges/fe720f0219c23dc3e237/maintainability)](https://codeclimate.com/github/cjtterabytesoft/app/maintainability)
-[![Total Downloads](https://poser.pugx.org/terabytesoft/app-template/downloads)](https://packagist.org/packages/cjtterabytesoft/app)
+[![Total Downloads](https://poser.pugx.org/terabytesoft/app-template/downloads)](https://packagist.org/packages/terabytesoft/app-template)
 
 
 DIRECTORY STRUCTURE
