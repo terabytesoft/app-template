@@ -28,17 +28,12 @@
         "yiisoft/log": "^3.0@dev",
         "yiisoft/yii-console": "^3.0@dev",
         "yiisoft/view": "^3.0@dev",
-        "terabytesoft/app-basic": "dev-master"
+        "terabytesoft/app-basic": "dev-master",
+        "wikimedia/composer-merge-plugin": "^1.3@dev"
     },
     "require-dev": {
         "hiqdev/composer-config-plugin": "^1.0@dev"
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
-        }
-    ],
     "config": {
         "fxp-asset": {
             "enabled": false
@@ -52,6 +47,15 @@
         "config-plugin": {
             "common": "config/common.php",
             "params": "config/params.php"
+        },
+        "merge-plugin": {
+            "include": "vendor/*/*/composer.assets.json"
+        }
+    },
+    "repositories": {
+        "ap": {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
         }
     }
 }
