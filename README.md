@@ -52,6 +52,7 @@ http://localhost/
 CONFIGURATION
 -------------
 
+```
 return [
     'app.id' => 'app-basic',
     'app.name' => 'My Project Basic',
