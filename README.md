@@ -49,6 +49,29 @@ directly under the Web root.
 http://localhost/
 ~~~
 
+CONFIGURATION
+-------------
+
+return [
+    'app.id' => 'app-basic',
+    'app.name' => 'My Project Basic',
+    'adminEmail' => 'admin@example.com',
+    'debug.allowedIPs' => ['127.0.0.1'],    
+    'db.dsn' => 'mysql:host=localhost;dbname=app_basic;charset=utf8',
+    'db.username' => 'app_basic',
+    'db.password' => 'your_password',
+    'favicon.ico' => '@yii/app/../public/favicon.ico',
+    'i18n.locale' => 'en-US',
+];
+```
+
+### MIGRATIONS:
+
+```
+php vendor/bin/yii migrate/up --migrationPath=@migrations
+Apply the above migration? (yes|no) [no]:yes
+```
+
 ### WEB SERVER SUPPORT:
 
 - Apache.
