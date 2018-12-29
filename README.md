@@ -82,7 +82,7 @@ return [
     'db.username' => 'your_username',
     'db.password' => 'your_password',
     'favicon.ico' => '@yii/app/../public/favicon.ico',
-	'mailer.useFileTransport' => true,
+    'mailer.useFileTransport' => true,
     'i18n.locale' => 'en-US',
 ];
 ```

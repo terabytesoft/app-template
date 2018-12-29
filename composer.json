@@ -31,6 +31,7 @@
     },
     "require-dev": {
         "yiisoft/yii-debug": "^3.0@dev",
+        "composer-plugin-api": "^1.1",
         "foxy/foxy": "^1.0",
         "hiqdev/composer-config-plugin": "^1.0@dev"
     },
