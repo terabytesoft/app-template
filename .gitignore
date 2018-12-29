@@ -20,9 +20,14 @@ Thumbs.db
 # composer vendor dir
 /vendor
 
+# nodejs
+/node_modules
+
 # composer itself is not needed
 composer.phar
 composer.lock
+package-lock.json
+package.json
 
 # Mac DS_Store Files
 .DS_Store

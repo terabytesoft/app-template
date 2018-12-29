@@ -3,15 +3,24 @@
         <img src="https://farm1.staticflickr.com/887/27875183957_69a3645a56_q.jpg" height="100px;">
     </a>
     <h1 align="center">Yii 3.0 Web Project Skeleton Application Basic</h1>
-    <br>
 </p>
 
-[![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](https://www.yiiframework.com/)
-[![Build Status](https://scrutinizer-ci.com/g/terabytesoft/app-template-basic/badges/build.png?b=master)](https://scrutinizer-ci.com/g/cjtterabytesoft/app/build-status/master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/terabytesoft/app-template-basic/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/cjtterabytesoft/app/?branch=master)
-[![Code Intelligence Status](https://scrutinizer-ci.com/g/terabytesoft/app-template-basic/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
-[![Maintainability](https://api.codeclimate.com/v1/badges/fe720f0219c23dc3e237/maintainability)](https://codeclimate.com/github/terabytesoft/app-template-basic/maintainability)
-[![Total Downloads](https://poser.pugx.org/terabytesoft/app-template-basic/downloads)](https://packagist.org/packages/terabytesoft/app-template-basic)
+</br>
+
+<p align="center">
+    <a href="https://www.yiiframework.com/" target="_blank">
+        <img src="https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)" alt="Yii Framework">
+    </a>
+    <a href="https://scrutinizer-ci.com/g/terabytesoft/app-template-basic/build-status/master" target="_blank">
+        <img src="https://scrutinizer-ci.com/g/terabytesoft/app-template-basic/badges/build.png?b=master" alt="Build Status">
+    </a>
+    <a href="https://codeclimate.com/github/terabytesoft/app-template-basic/maintainability" target="_blank">
+        <img src="https://api.codeclimate.com/v1/badges/fe720f0219c23dc3e237/maintainability" alt="Maintainability">
+    </a>
+    <a href="https://packagist.org/packages/cjtterabytesoft/app-template-basic" target="_blank">
+        <img src="https://poser.pugx.org/terabytesoft/app-template-basic/downloads" alt="Total Downloads">
+    </a>
+</p>
 
 
 DIRECTORY STRUCTURE
@@ -33,8 +42,14 @@ The minimum requirement by this project template that your Web server supports P
 INSTALLATION
 ------------
 
-If you do not have [Composer](http://getcomposer.org/), you may install it by following the instructions
-at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
+<p align="justify">
+If you do not have <a href="http://getcomposer.org/" title="Composer" target="_blank">composer</a>, you may install it by following the instructions at <a href="http://getcomposer.org/doc/00-intro.md#installation-nix" title="getcomposer.org" target="_blank">getcomposer.org</a>.
+</p>
+
+<p align="justify">
+If you do not have <a href="https://www.npmjs.com/" title="npm" target="_blank">npm</a>, you may install it by following the instructions
+at <a href="https://www.npmjs.com/get-npm" title="get npm" target="_blank">get npm</a> .
+</p>
 
 You can then install this project template using the following command:
 
@@ -79,7 +94,7 @@ Apply the above migration? (yes|no) [no]:yes
 - Nginx.
 - OpenLiteSpeed.
 
-### [DOCUMENTATION STYLE GUIDE.](docs/DOCUMENTATION.md)
+### [DOCUMENTATION STYLE GUIDE.](docs/documentation.md)
 
 **LICENSE:**
 
