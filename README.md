@@ -59,11 +59,13 @@ Yii 3.0 manages the assets independently with Foxy, everything is installed in t
 You can then install this project template using the following command:
 
 ~~~
-composer create-project --prefer-dist --stability=dev terabytesoft/app-template myapp
+composer create-project --prefer-dist --stability=dev terabytesoft/app-template-basic myapp
 ~~~
 
-Now you should be able to access the application through the following URL, assuming `public` is the directory
+<p align="justify">
+Now you should be able to access the application through the following URL, assuming <strong>public</strong> is the directory
 directly under the Web root.
+</p>
 
 ~~~
 http://localhost/
