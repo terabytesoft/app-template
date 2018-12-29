@@ -29,6 +29,7 @@ DIRECTORY STRUCTURE
 ```
 config/             contains application configurations
 public/             contains the entry script for a web server
+node_modules/       contains assets
 runtime/            contains files generated during runtime
 tests/              contains various tests for the basic application
 vendor/             contains dependent 3rd-party packages
@@ -51,6 +52,10 @@ If you do not have <a href="https://www.npmjs.com/" title="npm" target="_blank">
 at <a href="https://www.npmjs.com/get-npm" title="get npm" target="_blank">get npm</a> .
 </p>
 
+<p align="justify">
+Yii 3.0 manages the assets independently with Foxy, everything is installed in the /node_modules directory, it is essential to have installed <strong>nodejs, npm, and yarn</strong>.
+</p>
+
 You can then install this project template using the following command:
 
 ~~~
@@ -69,14 +74,15 @@ CONFIGURATION
 
 ```
 return [
-    'app.id' => 'app-basic',
+    'app.id' => 'my-project-basic',
     'app.name' => 'My Project Basic',
     'adminEmail' => 'admin@example.com',
-    'debug.allowedIPs' => ['127.0.0.1'],    
-    'db.dsn' => 'mysql:host=localhost;dbname=app_basic;charset=utf8',
-    'db.username' => 'app_basic',
+    'debug.allowedIPs' => ['127.0.0.1'],
+    'db.dsn' => 'mysql:host=localhost;dbname=your_database;charset=utf8',
+    'db.username' => 'your_username',
     'db.password' => 'your_password',
     'favicon.ico' => '@yii/app/../public/favicon.ico',
+	'mailer.useFileTransport' => true,
     'i18n.locale' => 'en-US',
 ];
 ```
