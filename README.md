@@ -11,7 +11,7 @@
     <a href="https://www.yiiframework.com/" target="_blank">
         <img src="https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)" alt="Yii Framework">
     </a>
-    <a href="https://travis-ci.org/terabytesoft/app-template-basic.svg?branch=master" target="_blank">
+    <a href="https://travis-ci.org/terabytesoft/app-template-basic" target="_blank">
         <img src="https://travis-ci.org/terabytesoft/app-template-basic.svg?branch=master" alt="Build Status">
     </a>
     <a href="https://codeclimate.com/github/terabytesoft/app-template-basic/maintainability" target="_blank">
