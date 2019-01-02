@@ -27,6 +27,7 @@ Thumbs.db
 composer.phar
 package-lock.json
 package.json
+composer.lock
 
 # Mac DS_Store Files
 .DS_Store

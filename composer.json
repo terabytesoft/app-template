@@ -27,13 +27,14 @@
         "yiisoft/cache": "^3.0@dev",
         "yiisoft/di": "^3.0@dev",
         "yiisoft/log": "^3.0@dev",
-        "terabytesoft/app-basic": "^0.0.1@dev"
+        "foxy/foxy": "^1.0",
+        "hiqdev/composer-config-plugin": "^1.0@dev",
+        "terabytesoft/app-basic": "^0.0.1@dev",
+        "vlucas/phpdotenv": "^2.5"
     },
     "require-dev": {
         "yiisoft/yii-debug": "^3.0@dev",
-        "composer-plugin-api": "^1.1",
-        "foxy/foxy": "^1.0",
-        "hiqdev/composer-config-plugin": "^1.0@dev"
+        "phpunit/phpunit": "^7.0"
     },
     "config": {
         "foxy": {
