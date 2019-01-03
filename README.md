@@ -22,12 +22,19 @@
     </a>
 </p>
 
+</br>
 
-DIRECTORY STRUCTURE
--------------------
+<p align="justify">
+<strong>Yii 3.0 Web Project Skeleton Application Basic</strong>, is the structure for <strong>Yii 3.0 Web Application Basic</strong>, this allows you to update the <strong>Web Application Basic</strong> without having to re-install, all the details of your installation, configuration and start-up at <a href="https://github.com/terabytesoft/app-basic" title="Yii 3.0 Web Project Skeleton Application Basic" target="_blank">Yii 3.0 Web Project Skeleton Application Basic</a>
+</p>
+
+</br>
+
+### **DIRECTORY STRUCTURE:**
 
 ```
 config/             contains application configurations
+messages/           contains application translations messages
 public/             contains the entry script for a web server
 node_modules/       contains assets
 runtime/            contains files generated during runtime
@@ -35,73 +42,12 @@ tests/              contains various tests for the basic application
 vendor/             contains dependent 3rd-party packages
 ```
 
-REQUIREMENTS
-------------
- 
-The minimum requirement by this project template that your Web server supports PHP 7.1.
-
-INSTALLATION
-------------
-
-<p align="justify">
-If you do not have <a href="http://getcomposer.org/" title="Composer" target="_blank">composer</a>, you may install it by following the instructions at <a href="http://getcomposer.org/doc/00-intro.md#installation-nix" title="getcomposer.org" target="_blank">getcomposer.org</a>.
-</p>
-
-<p align="justify">
-If you do not have <a href="https://www.npmjs.com/" title="npm" target="_blank">npm</a>, you may install it by following the instructions
-at <a href="https://www.npmjs.com/get-npm" title="get npm" target="_blank">get npm</a> .
-</p>
-
-<p align="justify">
-Yii 3.0 manages the assets independently with Foxy, everything is installed in the /node_modules directory, it is essential to have installed <strong>nodejs, npm, and yarn</strong>.
-</p>
-
-You can then install this project template using the following command:
-
-~~~
-composer create-project --prefer-dist --stability=dev terabytesoft/app-template-basic myapp
-~~~
-
-<p align="justify">
-Now you should be able to access the application through the following URL, assuming <strong>public</strong> is the directory
-directly under the Web root.
-</p>
-
-~~~
-http://localhost/
-~~~
-
-CONFIGURATION
--------------
-
-config/params.php:
-```
-return [
-    'app.id' => 'my-project-basic',
-    'app.name' => 'My Project Basic',
-    'adminEmail' => 'admin@example.com',
-    'debug.allowedIPs' => ['127.0.0.1'],
-    'db.dsn' => 'mysql:host=localhost;dbname=your_database;charset=utf8',
-    'db.username' => 'your_username',
-    'db.password' => 'your_password',
-    'favicon.ico' => '@yii/app/../public/favicon.ico',
-    'mailer.useFileTransport' => true,
-    'i18n.locale' => 'en-US',
-];
-```
-
-### WEB SERVER SUPPORT:
+### **WEB SERVER SUPPORT:**
 
 - Apache.
 - Nginx.
 - OpenLiteSpeed.
 
-### [DOCUMENTATION STYLE GUIDE.](docs/documentation.md)
-
-**LICENSE:**
+### **LICENSE:**
 
 [![License](https://poser.pugx.org/terabytesoft/app-template-basic/license)](https://packagist.org/packages/terabytesoft/app-template-basic)
-
-**NOTES:**
-
-- Check and edit the other files in the `config/` directory to customize your application as required.
