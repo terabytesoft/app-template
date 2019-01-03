@@ -74,6 +74,7 @@ http://localhost/
 CONFIGURATION
 -------------
 
+config/params.php:
 ```
 return [
     'app.id' => 'my-project-basic',
@@ -87,13 +88,6 @@ return [
     'mailer.useFileTransport' => true,
     'i18n.locale' => 'en-US',
 ];
-```
-
-### MIGRATIONS:
-
-```
-php vendor/bin/yii migrate/up --migrationPath=@migrations
-Apply the above migration? (yes|no) [no]:yes
 ```
 
 ### WEB SERVER SUPPORT:
