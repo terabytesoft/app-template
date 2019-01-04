@@ -24,10 +24,12 @@ Thumbs.db
 /node_modules
 
 # composer itself is not needed
+composer.lock
 composer.phar
+codeception.yml
 package-lock.json
 package.json
-composer.lock
+/config/tests.php
 
 # Mac DS_Store Files
 .DS_Store
