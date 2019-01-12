@@ -34,8 +34,14 @@
     },
     "require-dev": {
         "yiisoft/yii-debug": "^3.0@dev",
+        "codeception/codeception": "2.5.x-dev",
         "phpunit/phpunit": "^7.0"
     },
+    "autoload": {
+        "psr-4": {
+            "app\\template\\basic\\tests\\": "tests"
+        }
+    },  
     "config": {
         "foxy": {
             "enable-packages": {
@@ -52,8 +58,9 @@
             "dev-master": "0.0.1-dev"
         },
         "config-plugin": {
+            "params": "config/params.php",
             "common": "config/common.php",
-            "params": "config/params.php"
+            "testsapp": "config/testsapp.php"
         }
     }
 }
