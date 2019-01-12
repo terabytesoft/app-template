@@ -7,4 +7,4 @@ class_name: CodeGuy
 modules:
     enabled:
         - Asserts
-        - \app\template\basic\test\Helper\Unit
+        - \Helper\Unit

@@ -1,9 +1,6 @@
 <?php
 
-namespace app\template\basic\test;
-
 use app\basic\forms\ContactForm;
-use app\template\basic\test\UnitTester;
 
 class ContactFormTestCest extends \Codeception\Test\Unit
 {

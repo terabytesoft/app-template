@@ -1,8 +1,5 @@
 <?php
 
-namespace app\template\basic\test;
-
-use yii\helpers\Yii;
 
 /**
  * Inherited Methods
@@ -22,4 +19,8 @@ use yii\helpers\Yii;
 class AcceptanceTester extends \Codeception\Actor
 {
     use _generated\AcceptanceTesterActions;
+
+   /**
+    * Define custom actions here
+    */
 }

@@ -1,8 +1,5 @@
 <?php
 
-namespace app\template\basic\test;
-
-use app\template\basic\test\FunctionalTester;
 use yii\helpers\Yii;
 
 class ContactFormCest

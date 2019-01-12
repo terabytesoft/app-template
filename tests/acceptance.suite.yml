@@ -9,4 +9,4 @@ modules:
     enabled:
         - PhpBrowser:
             url: http://localhost:8080
-        - \app\template\basic\test\Helper\Acceptance
+        - \Helper\Acceptance

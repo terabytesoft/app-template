@@ -30,4 +30,5 @@ install:
 script:
   - |
     vendor/bin/yii serve > /dev/null 2>&1 &
+    vendor/bin/codecept build
     vendor/bin/codecept run

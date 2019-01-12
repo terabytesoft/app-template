@@ -11,4 +11,4 @@ modules:
         - PhpBrowser:
             url: http://localhost:8080    
         # add a framework module here
-        - \app\template\basic\test\Helper\Functional
+        - \Helper\Functional

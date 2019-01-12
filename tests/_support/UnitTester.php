@@ -1,5 +1,5 @@
 <?php
-namespace app\template\basic\test;
+
 
 /**
  * Inherited Methods
