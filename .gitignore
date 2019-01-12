@@ -29,7 +29,6 @@ composer.phar
 codeception.yml
 package-lock.json
 package.json
-/config/tests.php
 
 # Mac DS_Store Files
 .DS_Store

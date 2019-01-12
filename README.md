@@ -50,4 +50,4 @@ vendor/             contains dependent 3rd-party packages
 
 ### **LICENSE:**
 
-[![License](https://poser.pugx.org/terabytesoft/app-template-basic/license)](https://packagist.org/packages/terabytesoft/app-template-basic)
+[![License](https://poser.pugx.org/terabytesoft/app-template-basic/license)](LICENSE.md)
