@@ -19,7 +19,7 @@ install:
 
 before_script:
   - vendor/bin/codecept build
-  - travis_retry vendor/bin/yii serve > /dev/null 2>&1 &
+  - php -S localhost:8080 -t public > /dev/null 2>&1&
 
 script:
   - vendor/bin/codecept run
