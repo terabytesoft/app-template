@@ -3,6 +3,7 @@ language: php
 php:
   - 7.1
   - 7.2
+  - 7.3
 
 # faster builds on new travis setup not using sudo
 sudo: false
@@ -15,19 +16,10 @@ cache:
 install:
   - travis_retry composer self-update && composer --version
   - travis_retry composer update --dev --prefer-dist --no-interaction
-  # install php extensions
-  - |
-    if (php --version | grep -i HipHop > /dev/null); then
-      echo "Skipping imagick and gmagick tests on HHVM"
-    else
-      pear config-set preferred_state beta
-      printf "\n" | pecl install imagick
-      # gmagick is not installed on travis currently
-      #printf "\n" | pecl install gmagick
-    fi
+
+before_script:
+  - vendor/bin/codecept build
+  - vendor/bin/yii serve > /dev/null 2>&1 &
 
 script:
-  - |
-    vendor/bin/yii serve > /dev/null 2>&1 &
-    vendor/bin/codecept build
-    vendor/bin/codecept run
+  - vendor/bin/codecept run
