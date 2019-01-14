@@ -37,11 +37,6 @@
         "codeception/codeception": "2.5.x-dev",
         "phpunit/phpunit": "^7.0"
     },
-    "autoload-dev": {
-        "psr-4": {
-            "yii\\log\\tests\\": "tests"
-        }
-    }, 
     "config": {
         "foxy": {
             "enable-packages": {
