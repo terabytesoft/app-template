@@ -7,9 +7,11 @@ paths:
 actor_suffix: Tester
 settings:
     bootstrap: _bootstrap.php
-    suite_class: \PHPUnit_Framework_TestSuite    
+    suite_class: \PHPUnit_Framework_TestSuite
     memory_limit: 1024M
     colors: true
 extensions:
     enabled:
         - Codeception\Extension\RunFailed
+coverage:
+    enable: true
