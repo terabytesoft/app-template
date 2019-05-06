@@ -4,7 +4,7 @@ use yii\helpers\Yii;
 
 class IndexCest
 {
-    public function _before(FunctionalTester $I)
+    public function _before(AcceptanceTester $I)
     {
         $I->amOnPage('/');
     }
