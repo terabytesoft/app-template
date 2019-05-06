@@ -1,3 +1,7 @@
 <?php
 
-return [];
+return [
+	'app' => [
+        'controllerNamespace' => 'Terabytesoft\App\Basic\Controllers',
+    ],
+];

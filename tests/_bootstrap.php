@@ -20,5 +20,5 @@ $_SERVER['SCRIPT_FILENAME'] = __FILE__;
     }
     require_once $composerAutoload;
     $container = new Container(require Builder::path('web'));
-    Yii::setContainer($container);
+	Yii::setContainer($container);
 })();
