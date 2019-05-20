@@ -10,24 +10,19 @@
     ],
     "homepage": "https://github.com/terabytesoft/app-template-basic",
     "license": "BSD-3-Clause",
-    "support": {
-        "issues": "https://github.com/terabytesoft/app-template-basic/issues",
-        "source": "https://github.com//terabytesoft/app-template-basic",
-        "forum":  "https://discuss.cjtterabyte.com"
-    },
     "authors": [
         {
             "name": "Wilmer Arambula",
-            "email": "terabytesoftw@gmail.com"
+            "email": "wilmer.arambula@gmail.com"
         }
     ],
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
 		"php": "^7.2",
 		"foxy/foxy": "^1.0",
 		"hiqdev/composer-config-plugin": "^1.0@dev",
 		"terabytesoft/app-basic": "^0.0.1@dev",
-		"vlucas/phpdotenv": "^2.5",
         "yiisoft/cache": "^3.0@dev",
         "yiisoft/di": "^3.0@dev",
 		"yiisoft/log": "^3.0@dev",
@@ -37,17 +32,6 @@
 		"codeception/codeception": "^3.0",
         "yiisoft/yii-debug": "^3.0@dev"
     },
-    "config": {
-        "foxy": {
-            "enable-packages": {
-                "*": true
-            }
-        },
-        "fxp-asset": {
-            "enabled": false
-        },
-        "process-timeout": 1800
-    },
     "extra": {
         "branch-alias": {
             "dev-master": "0.0.1-dev"
@@ -55,7 +39,7 @@
         "config-plugin": {
             "params": "config/params.php",
             "common": "config/common.php",
-            "testsapp": "config/testsapp.php"
+            "tests": "config/tests.php"
         }
     }
 }
