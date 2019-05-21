@@ -15,14 +15,17 @@
         <img src="https://travis-ci.org/terabytesoft/app-template-basic.svg?branch=master" alt="Build Status">
     </a>
     <a href="https://scrutinizer-ci.com/g/terabytesoft/app-template-basic/" target="_blank">
-        <img src="https://img.shields.io/badge/ScrutinizerCI-build-green.svg" alt="Build Status">
+        <img src="https://scrutinizer-ci.com/g/terabytesoft/app-template-basic/badges/build.png?b=master" alt="Build Status">
     </a>    
      <a href="https://scrutinizer-ci.com/code-intelligence" target="_blank">
           <img src="https://scrutinizer-ci.com/g/terabytesoft/app-template-basic/badges/code-intelligence.svg?b=master" alt="Code Intelligence Status">
     </a>	
     <a href="https://codeclimate.com/github/terabytesoft/app-template-basic/maintainability" target="_blank">
         <img src="https://api.codeclimate.com/v1/badges/7d94098b87e43be303b0/maintainability" alt="Maintainability">
-    </a>	
+    </a>
+    <a href="https://github.styleci.io/repos/163084735">
+        <img src="https://github.styleci.io/repos/163084735/shield?branch=master" alt="StyleCI">
+    </a>    	
 </p>
 
 </br>
