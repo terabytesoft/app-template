@@ -6,5 +6,4 @@ namespace TemplateAppBasic\Helper;
 
 class Unit extends \Codeception\Module
 {
-
 }
