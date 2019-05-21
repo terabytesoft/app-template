@@ -1,5 +1,8 @@
 <?php
 
+namespace TemplateAppBasic;
+
+use TemplateAppBasic\AcceptanceTester;
 use yii\helpers\Yii;
 
 class IndexCest
