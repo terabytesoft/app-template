@@ -12,8 +12,11 @@
         <img src="https://poser.pugx.org/terabytesoft/app-template-basic/v/unstable" alt="Unstable Version">
     </a>
     <a href="https://travis-ci.org/terabytesoft/app-template-basic" target="_blank">
-        <img src="https://travis-ci.org/terabytesoft/app-template-basic.svg?branch=master" alt="Build Status">
+        <img src="https://img.shields.io/badge/TravisCI-build-green.svg" alt="Build Status">
     </a>
+    <a href="https://scrutinizer-ci.com/g/terabytesoft/app-template-basic/" target="_blank">
+        <img src="https://img.shields.io/badge/ScrutinizerCI-build-green.svg" alt="Build Status">
+    </a>    
      <a href="https://scrutinizer-ci.com/code-intelligence" target="_blank">
           <img src="https://scrutinizer-ci.com/g/terabytesoft/app-template-basic/badges/code-intelligence.svg?b=master" alt="Code Intelligence Status">
     </a>	
