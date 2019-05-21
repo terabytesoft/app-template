@@ -8,18 +8,18 @@
 </br>
 
 <p align="center">
-    <a href="https://www.yiiframework.com/" target="_blank">
-        <img src="https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)" alt="Yii Framework">
+    <a href="https://packagist.org/packages/terabytesoft/app-template-basic" target="_blank">
+        <img src="https://poser.pugx.org/terabytesoft/app-template-basic/v/unstable" alt="Unstable Version">
     </a>
     <a href="https://travis-ci.org/terabytesoft/app-template-basic" target="_blank">
         <img src="https://travis-ci.org/terabytesoft/app-template-basic.svg?branch=master" alt="Build Status">
     </a>
+     <a href="https://scrutinizer-ci.com/code-intelligence" target="_blank">
+          <img src="https://scrutinizer-ci.com/g/terabytesoft/app-template-basic/badges/code-intelligence.svg?b=master" alt="Code Intelligence Status">
+    </a>	
     <a href="https://codeclimate.com/github/terabytesoft/app-template-basic/maintainability" target="_blank">
-        <img src="https://api.codeclimate.com/v1/badges/fe720f0219c23dc3e237/maintainability" alt="Maintainability">
-    </a>
-    <a href="https://packagist.org/packages/cjtterabytesoft/app-template-basic" target="_blank">
-        <img src="https://poser.pugx.org/terabytesoft/app-template-basic/downloads" alt="Total Downloads">
-    </a>
+        <img src="https://api.codeclimate.com/v1/badges/7d94098b87e43be303b0/maintainability" alt="Maintainability">
+    </a>	
 </p>
 
 </br>
@@ -51,3 +51,5 @@ vendor/             contains dependent 3rd-party packages
 ### **LICENSE:**
 
 [![License](https://poser.pugx.org/terabytesoft/app-template-basic/license)](LICENSE.md)
+[![Yii](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](http://www.yiiframework.com/)
+[![Total Downloads](https://poser.pugx.org/terabytesoft/app-template-basic/downloads)](https://packagist.org/packages/terabytesoft/app-template-basic)
