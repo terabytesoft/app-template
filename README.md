@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/terabytesoft/app-template-basic" target="_blank">
-        <img src="https://lh3.googleusercontent.com/DqmCbItYtxf5qhGk1WwD_RO16CF9wiQ_b3tB28qFlMD8Nv6xTpj9u-UB8LQlYz9DbkdG6-YAaY54K2bWv-j1Chg9lZEyuYDOC6t-qhcwOvDTxnF1uePU7KGvuKLVec5JkTsw7rQM=w2400" height="150px;">
+        <img src="https://lh3.googleusercontent.com/D9TFw1F6ddPuheDc_tpNptTdvTg-FNNpjLSBN14X6Sc-3JDiOxfE67rEh4OZfygonx1tKei2b2DEOHDLjF6T3xl8e-rkEEPZeGqLTWcS_v2cBRlyo0vcZLDHG5ivSDGIWCsenbol=w2400" height="50px;">
     </a>
     <h1 align="center">Project Skeleton Application Basic</h1>
 </p>
