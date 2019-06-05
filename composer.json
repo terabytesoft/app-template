@@ -22,16 +22,27 @@
 		"php": "^7.2",
 		"foxy/foxy": "^1.0",
         "hiqdev/composer-config-plugin": "^1.0@dev",
-        "nyholm/psr7": "*",
-		"terabytesoft/app-basic": "^0.0.1@dev",
-        "yiisoft/cache": "^3.0@dev",
+        "nyholm/psr7": "^1.0",
+        "terabytesoft/app-basic": "^0.0.1@dev",
+        "yiisoft/cache": "dev-master#b10f733",
         "yiisoft/di": "^3.0@dev",
 		"yiisoft/log": "^3.0@dev",
-		"yiisoft/log-target-file": "^3.0@dev"
+        "yiisoft/log-target-file": "^3.0@dev",
+        "yiisoft/rbac": "dev-master#2f0194e",
+        "yiisoft/router": "^3.0@dev",
+        "yiisoft/router-fastroute": "^3.0@dev",
+        "yiisoft/view": "^3.0@dev",
+        "yiisoft/yii-core": "dev-master#ac80ebf",
+        "yiisoft/yii-web": "dev-master#4d5d840"
     },
     "require-dev": {
 		"codeception/codeception": "^3.0",
         "yiisoft/yii-debug": "^3.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "TerabyteSoft\\App\\Template\\Basic\\": "src"
+        }
     },
     "extra": {
         "branch-alias": {
