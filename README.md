@@ -47,6 +47,13 @@ tests/              contains tests codeception
 vendor/             contains dependent 3rd-party packages
 ```
 
+### **RUN TESTS CODECEPTION:**
+
+~~~
+$ php -S 127.0.0.1:8080 -t tests/public > /dev/null 2>&1&
+$ vendor/bin/codecept run
+~~~
+
 ### **WEB SERVER SUPPORT:**
 
 - Apache.
